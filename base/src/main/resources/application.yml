@@ -1,0 +1,15 @@
+server:
+  port: 8888
+  tomcat:
+    basedir: tomcat
+    accesslog:
+      enabled: true
+
+
+spring:
+  datasource:
+    url: jdbc:sqlite:data/data.db
+    username:
+    password:
+    driver-class-name: org.sqlite.JDBC
+    type: com.alibaba.druid.pool.DruidDataSource

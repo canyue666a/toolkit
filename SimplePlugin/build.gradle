@@ -1,0 +1,10 @@
+jar {
+    enabled = true
+}
+bootJar{
+    classifier = 'boot'
+}
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter")
+    compile("de.roskenet:springboot-javafx-support:2.1.6")
+}
